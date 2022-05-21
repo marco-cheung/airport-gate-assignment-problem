@@ -4,4 +4,8 @@ Mixed Integer Linear Programming (MILP) Model for solving airport gate assignmen
 Gantt Chart:
 https://marco-cheung.github.io/airport-gate-assignment-problem/index.html
 
+The historical flight info of Hong Kong International Airport is publicly available on DATA.GOV.HK:
+https://data.gov.hk/en-data/dataset/aahk-team1-flight-info
+
+
 *Special thanks to @Ilia Karmanov's repo for inspiring me to work out MILP coding. 
