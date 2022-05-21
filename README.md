@@ -4,4 +4,4 @@ Mixed Integer Linear Programming (MILP) Model for solving airport gate assignmen
 Gantt Chart:
 https://marco-cheung.github.io/airport-gate-assignment-problem/index.html
 
-*Special thanks to @Ilia Karmanov's repo for inspiring me how to work out MILP coding. 
+*Special thanks to @Ilia Karmanov's repo for inspiring me to work out MILP coding. 
