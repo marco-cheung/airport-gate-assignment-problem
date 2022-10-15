@@ -30,16 +30,17 @@ In case there is no feasible solutions, it implies that the resource input of pa
 3) Our model only serves one objective in this study, despite there may have multiple objectives to consider by Airport Authority during stand allocation, such as assigning flights close to airline service counters, maintaining some degree of stand allocation patterns for regular flights from time to time, etc.
 
 # Terminology
-Turns: a pair of arrival and departure flights with the same aircraft <br />
-Scheduled Arrival Time: STA <br />
-Scheduled Departure Time: STD <br />
-Ground Time: the planned time period for which an aircraft will occupy a particular stand, i.e. time between STA and STD <br />
-Frontal Stand: a set of parking stands equipped with “passenger boarding bridge” for connection with the terminal building <br />
-Remote Stand: an aircraft stand that is not airbridge-served, therefore requires require a shuttle bus service
-Towing Stand: a set of parking stand for serving towing plane 
-Green Zone: Mainland flight shall be allocated to “Green” zone only
-Orange Zone: Non-Mainland flight shall be allocated to “Orange” zone only
-Towing: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking – (1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
+**Turns**: a pair of arrival and departure flights with the same aircraft <br />
+**STA**: Scheduled Arrival Time <br />
+**STD**: Scheduled Departure Time <br />
+**Ground Time**: the planned time period for which an aircraft will occupy a particular stand, i.e. time between STA and STD <br />
+**Frontal Stand**: a set of parking stands equipped with “passenger boarding bridge” for connection with the terminal building <br />
+**Remote Stand**: an aircraft stand that is not airbridge-served, therefore requires require a shuttle bus service <br />
+**Towing Stand**: a set of parking stand for serving towing plane <br />
+**Green Zone**: Mainland flight shall be allocated to “Green” zone only <br />
+**Orange Zone**: Non-Mainland flight shall be allocated to “Orange” zone only <br />
+**Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking – <br />
+(1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
  
 
 Model result is presented in Gantt Chart:<br />
