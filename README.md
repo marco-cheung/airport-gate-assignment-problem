@@ -39,8 +39,7 @@ In case there is no feasible solutions, it implies that the resource input of pa
 **Towing Stand**: a set of parking stand for serving towing plane <br />
 **Green Zone**: Mainland flight shall be allocated to “Green” zone only <br />
 **Orange Zone**: Non-Mainland flight shall be allocated to “Orange” zone only <br />
-**Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking – <br />
-(1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
+**Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking: (1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
  
 
 Model result is presented in Gantt Chart:<br />
