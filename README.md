@@ -33,26 +33,26 @@ In case there is no feasible solutions, it implies that the resource input of pa
 3) Our model only serves one objective in this study, despite there may have multiple objectives to consider by Airport Authority during stand allocation, such as assigning flights close to airline service counters, maintaining some degree of stand allocation patterns for regular flights from time to time, etc.
 
 # Terminology
-**Turns**: a pair of arrival and departure flights with the same aircraft <br />
-**STA**: Scheduled Arrival Time <br />
-**STD**: Scheduled Departure Time <br />
-**Ground Time**: the planned time period for which an aircraft will occupy a particular stand, i.e. time between STA and STD <br />
-**Frontal Stand**: a set of parking stands equipped with “passenger boarding bridge” for connection with the terminal building <br />
-**Remote Stand**: an aircraft stand that is not airbridge-served, therefore requires require a shuttle bus service <br />
-**Towing Stand**: a set of parking stand for serving towing plane <br />
-**Green Zone**: Mainland flight shall be allocated to “Green” zone only <br />
-**Orange Zone**: Non-Mainland flight shall be allocated to “Orange” zone only <br />
-**Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking: (1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
+**Turns**: a pair of arrival and departure flights with the same aircraft. <br />
+**STA**: Scheduled Arrival Time. <br />
+**STD**: Scheduled Departure Time. <br />
+**Ground Time**: the planned time period for which an aircraft will occupy a particular stand, i.e. time between STA and STD. <br />
+**Frontal Stand**: a set of parking stands equipped with “passenger boarding bridge” for connection with the terminal building. <br />
+**Remote Stand**: an aircraft stand that is not airbridge-served, therefore requires require a shuttle bus service. <br />
+**Towing Stand**: a set of parking stand for serving towing plane. <br />
+**Green Zone**: Mainland flight shall be allocated to “Green” zone only. <br />
+**Orange Zone**: Non-Mainland flight shall be allocated to “Orange” zone only. <br />
+**Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking: (1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD.
  
 
 # Model result
-The model was built with forth version. Why? Because after running the model for the first time, the model could not find a feasible solution that satisfy the hard-rule of 25-minutes interval in-between each turn in the parking stand. <br />
+The model was built with forth version. Why? Because after running the model for the first time, it could not find a feasible solution that satisfy the **hard-rule of 25-minutes interval** in-between each turn in the parking stand. <br />
 <br />
-So for 2nd model version, the model found out that the existing resource of parking stand input can only satisfy the constraints by setting 14-minutes as buffer time at most. However, this is not what the final answer that the airport management was looking for. <br />
+So for **2nd** model version, the model found out that the existing resource of parking stand input can only satisfy the constraints by setting **14-minutes as buffer time at most**. However, this is not what the final answer that the airport management was looking for. <br />
 <br />
-For the 3rd model version, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in the question of input stand resources in "Green Zone". <br />
+For the **3rd** model version, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in **the question of input stand resources in "Green Zone"**. <br />
 <br />
-In our final model version, three more remote stands (namely W121-123) were added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in Gantt Chart for data visualization: <br />
+In our **final** model version, three more remote stands (namely W121-123) were added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in **Gantt Chart for data visualization**: <br />
 https://marco-cheung.github.io/airport-gate-assignment-problem
 
 
