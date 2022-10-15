@@ -29,7 +29,7 @@ In case there is no feasible solutions, it implies that the resource input of pa
 
 # Assumptions
 1) The first arriving passenger flights were assumed to land in an empty airport, i.e., no parking stands were pre-occupied at the first beginning.
-2) The flight schedule data is simulated as close as one day in Nov-22 flight schedule of Hong Kong International Airport (HKIA).
+2) The flight schedule data is simulated as close as some days in Nov-22 flight schedule of Hong Kong International Airport (HKIA). (Due to data privacy concern, the raw data of seasonal schedule data would keep it confidential)
 3) Our model only serves one objective in this study, despite there may have multiple objectives to consider by Airport Authority during stand allocation, such as assigning flights close to airline service counters, maintaining some degree of stand allocation patterns for regular flights from time to time, etc.
 
 # Terminology
@@ -46,8 +46,11 @@ In case there is no feasible solutions, it implies that the resource input of pa
  
 
 # Model result
-The stand allocation of turns is presented in Gantt Chart for data visualization:<br />
+The model was built with forth version. Why? Because after running the model for the first time, the model could not find a feasible solution that satisfy the hard-rule of 25-minutes interval in-between each turn in the parking stand. So for 2nd model version, the model found out that the existing resource of parking stand input can only satisfy the constraints by setting 14-minutes as buffer time at most. However, this is not what the final answer that the airport management was looking for. <br />
+For the 3rd model version, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in the question of input stand resources in "Green Zone". <br />
+In our final model version, three more remote stands (namely are added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in Gantt Chart for data visualization: <br />
 https://marco-cheung.github.io/airport-gate-assignment-problem
 
+
 <br />
-*Special thanks to @Ilia Karmanov's repo for coding inspiration. 
+*Thanks to @Ilia Karmanov's Github Repo for coding inspiration. 
