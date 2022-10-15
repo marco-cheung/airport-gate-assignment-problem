@@ -52,7 +52,7 @@ So for 2nd model version, the model found out that the existing resource of park
 <br />
 For the 3rd model version, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in the question of input stand resources in "Green Zone". <br />
 <br />
-In our final model version, three more remote stands (namely are added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in Gantt Chart for data visualization: <br />
+In our final model version, three more remote stands (namely W121-123) were added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in Gantt Chart for data visualization: <br />
 https://marco-cheung.github.io/airport-gate-assignment-problem
 
 
