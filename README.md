@@ -42,7 +42,8 @@ In case there is no feasible solutions, it implies that the resource input of pa
 **Towing**: The turns followed by the towing protocol will be broken up as three turns as each of them is assigned to a different stand for parking: (1) disembarking in a frontal or remote stand; (2) temporary parking in a towing stand; (3) tow back to a frontal or remote stand for embarking 1 hour before STD
  
 
-Model result is presented in Gantt Chart:<br />
+# Model result
+The stand allocation of turns is presented in Gantt Chart for data visualization:<br />
 https://marco-cheung.github.io/airport-gate-assignment-problem
 
 <br />
