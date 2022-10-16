@@ -46,13 +46,13 @@ In case there is no feasible solutions, it implies that the resource input of pa
  
 
 # Model result
-The model was built with forth version. Why? Because after running the model for the first time, it could not find a feasible solution that satisfy the **hard-rule of 25-minutes interval** in-between each turn in the parking stand. <br />
+The model was built with **four versions**. Why? Because after running the model for the first time, it could not find a feasible solution that satisfy the **hard-rule of 25-minutes interval** in-between each turn in the parking stand. <br />
 <br />
-So for **2nd** model version, the model found out that the existing resource of parking stand input can only satisfy the constraints by setting **14-minutes as buffer time at most**. However, this is not what the final answer that the airport management was looking for. <br />
+So for **2nd model version**, the model found out that the existing resource of parking stand input can only satisfy the constraints by setting **14-minutes as buffer time at most**. However, this is not what the final answer that the airport management was looking for. <br />
 <br />
-For the **3rd** model version, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in **the question of input stand resources in "Green Zone"**. <br />
+For the **3rd model version**, a feasible solution could be reached when the flight schedule related to "Green Zone" (the zone exclusively designed for handling mainland China flights) are removed. In other words, it appears that the issue lied in **the question of input stand resources in "Green Zone"**. <br />
 <br />
-In our **final** model version, three more remote stands (namely W121-123) were added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in **Gantt Chart for data visualization**: <br />
+In our **final model version**, three more remote stands (namely W121-123) were added for "Green Zone", holding all other original constraints constant. The final result of stand allocation of turns is presented in **Gantt Chart for data visualization**: <br />
 https://marco-cheung.github.io/airport-gate-assignment-problem
 
 
